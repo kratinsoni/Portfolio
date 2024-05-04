@@ -5,7 +5,7 @@ Welcome to the repository for my GoodLooking Portfolio Website Projects! This pr
 ## Technologies Used
 1. React: The website is built entirely using React, a popular JavaScript library for building user interfaces.
 
-2. eact Router: Utilizing React Router capabilities for smooth navigation and routing within the website.
+2. React Router: Utilizing React Router capabilities for smooth navigation and routing within the website.
 3. Tailwind CSS: Employing Tailwind CSS for styling, enabling rapid development and customization of styles.
 4. Framer Motion: Incorporating Framer Motion for creating smooth and engaging animations throughout the website.
 5. Vite: Leveraging Vite, a lightweight framework, for a faster development experience compared to traditional React setup.
