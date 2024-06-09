@@ -10,9 +10,9 @@ function About() {
       initial="hidden"
       whileInView={"show"}
       viewport={{ once: false, amount: 0.7 }}
-      className="h-screen"
+      className="min-h-screen"
     >
-      <div className="flex md:flex-col py-2 px-6 md:px-4 h-full items-center ">
+      <div className="flex md:flex-col py-12 px-6 md:py-0 md:px-4  items-center ">
         <div className="w-2/5 md:w-3/5 md:pt-12">
           <img
             src="https://drive.google.com/thumbnail?id=19XtErFXZ0OkVLOOiJJLRxI8Jo1e2OIHc"
