@@ -58,7 +58,7 @@ function Home() {
         </div>
         <div className="">
           <img
-            src="src\assets\profile-pic (1).png"
+            src="https://drive.google.com/thumbnail?id=1ZlBypjvOW6Mm1cjonIhJ6DRTLLyNi0Wa"
             className="w-[400px] md:w-[250px]"
             alt=""
           />
@@ -83,19 +83,39 @@ function Home() {
         className="flex gap-4 justify-center my-4 "
       >
         <span>
-          <img src="src\assets\javascript.png" width="30px" alt="" />
+          <img
+            src="https://drive.google.com/thumbnail?id=1QYOtnQpnsg3BA8QZD71HTvF9bQRxx-XW"
+            width="30px"
+            alt=""
+          />
         </span>
         <span>
-          <img src="src\assets\nodejs.png" width="30px" alt="" />
+          <img
+            src="https://drive.google.com/thumbnail?id=1ZspKV2q_L43D09Rg8QUpYy76_1_5Dnr6"
+            width="30px"
+            alt=""
+          />
         </span>
         <span>
-          <img src="src\assets\html.png" width="30px" alt="" />
+          <img
+            src="https://drive.google.com/thumbnail?id=1H1HDyJ3Eqe7NqBcipQBRetZ6LbS0PyvP"
+            width="30px"
+            alt=""
+          />
         </span>
         <span>
-          <img src="src\assets\css.png" width="30px" alt="" />
+          <img
+            src="https://drive.google.com/thumbnail?id=1U6EC9pjvshEGBUcVBboj2xrT0YQ8qkPq"
+            width="30px"
+            alt=""
+          />
         </span>
         <span>
-          <img src="src\assets\reactjs.png" width="30px" alt="" />
+          <img
+            src="https://drive.google.com/thumbnail?id=1mEbwx9CeXNXnrEFZuk3DYJIP76w4zHWa"
+            width="30px"
+            alt=""
+          />
         </span>
       </motion.div>
       <motion.div
@@ -119,14 +139,14 @@ function Home() {
         <div>
           <ProjectBox
             name="BlogApp"
-            source="src\assets\Screenshot 2024-04-30 122042.png"
+            source="https://drive.google.com/thumbnail?id=1F06SyUEisBlkima2yIgACUwTF63WVh_G"
             uri="https://github.com/kratinsoni/BlogApp-appwrite"
           />
         </div>
         <div>
           <ProjectBox
             name="VideoTube"
-            source="src\assets\Screenshot 2024-04-30 130855.png"
+            source="https://drive.google.com/thumbnail?id=1k9XUigDOdaLaj4eyu8htLHbnbO1u1vey"
             uri="https://github.com/kratinsoni/VideoTube-Backend"
           />
         </div>
@@ -160,14 +180,16 @@ function Home() {
           viewport={{ once: false, amount: 0.7 }}
           className="flex justify-center my-12 md:hidden"
         >
-          <img src="src\assets\Experience.png" alt="" />
+          <img
+            src="https://drive.google.com/thumbnail?id=1bFe2gsFKzjg9-2bzu7_UWCTy2pNx-FD9"
+            alt=""
+          />
         </motion.div>
         <motion.div
           variants={fadeIn("up", 0.2)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          
         >
           <div className="my-12">
             <div className="text-white font-poppins font-extrabold text-2xl text-start px-80 my-3 md:px-6 flex">

@@ -22,14 +22,14 @@ function Projects() {
         <div className=" my-4 ">
           <ProjectBox
             name="BlogApp"
-            source="src\assets\Screenshot 2024-04-30 122042.png"
+            source="https://drive.google.com/thumbnail?id=1F06SyUEisBlkima2yIgACUwTF63WVh_G"
             uri="https://github.com/kratinsoni/BlogApp-appwrite"
           />
         </div>
         <div className="my-4">
           <ProjectBox
             name="VideoTube"
-            source="src\assets\Screenshot 2024-04-30 130855.png"
+            source="https://drive.google.com/thumbnail?id=1k9XUigDOdaLaj4eyu8htLHbnbO1u1vey"
             uri="https://github.com/kratinsoni/VideoTube-Backend"
           />
         </div>

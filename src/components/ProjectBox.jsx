@@ -9,7 +9,7 @@ function ProjectBox({ name, source, uri="https://www.google.com" }) {
       }}
     >
       <div>
-        <img src={source} className="rounded-t-2xl" alt="" />
+        <img src={source} className="rounded-t-2xl w-[440px] md:w-[300px]" alt="" />
       </div>
       <div className="flex justify-between px-3 py-1">
         <div className=" p-2 flex-col">

@@ -14,7 +14,11 @@ function About() {
     >
       <div className="flex md:flex-col py-2 px-6 md:px-4 h-full items-center ">
         <div className="w-2/5 md:w-3/5 md:pt-12">
-          <img src="src\assets\profile-pic.png" width="500px" alt="" />
+          <img
+            src="https://drive.google.com/thumbnail?id=19XtErFXZ0OkVLOOiJJLRxI8Jo1e2OIHc"
+            width="500px"
+            alt=""
+          />
         </div>
         <div className=" w-3/5 md:w-full mx-2 px-2 md:px-0 text-white h-full flex justify-center items-center md:items-start md:pt-16">
           <div className="h-1/2">
