@@ -196,7 +196,7 @@ function Home() {
               <span>
                 <img
                   className="w-6 mx-2 my-1"
-                  src="src\assets\6204d333e0c96_kshitij_logo.png"
+                  src="https://drive.google.com/thumbnail?id=1Sb4Br2wLgw2GsHbyegDF451mvI1Zltio"
                   alt=""
                 />
               </span>
