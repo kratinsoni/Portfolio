@@ -17,8 +17,8 @@ function Home() {
 
   return (
     <div className="w-full">
-      <div className="w-full flex px-12 py-12 justify-around items-center">
-        <div className="mt-12 w-1/2">
+      <div className="w-full flex lg:flex-col px-12 md:px-4 py-12 justify-around items-center">
+        <div className="mt-12 w-1/2 md:w-full">
           <div
             className="font-poppins text-white text-7xl
       font-extrabold"
@@ -42,14 +42,14 @@ function Home() {
               table. specializing in backend and frontend development.
             </span>
           </div>
-          <div className="flex gap-8 my-14">
+          <div className="flex gap-8 my-14 md:justify-center">
             <button className="text-black bg-white font-poppins px-7 py-3 rounded-3xl font-semibold hover:text-white hover:bg-black  border-white border-2">
               Get In Touch
             </button>
             <Link
               className="text-white bg-black font-poppins px-7 py-3 rounded-3xl font-semibold border-white border-2 hover: border-collapse hover:bg-white hover:text-black"
               to={
-                "https://drive.google.com/uc?export=download&id=1vjH7JcMRwI27_z_BmCI6R-WktE3-qggD"
+                "https://drive.google.com/uc?export=download&id=1Yo8xOCdY2pvpUh2DKyWrd98foTiWKxnL"
               }
             >
               Download CV
@@ -59,7 +59,7 @@ function Home() {
         <div className="">
           <img
             src="src\assets\profile-pic (1).png"
-            className="w-[400px]"
+            className="w-[400px] md:w-[250px]"
             alt=""
           />
         </div>
@@ -114,7 +114,7 @@ function Home() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }}
-        className="flex justify-center gap-20"
+        className="flex lg:flex-col lg:items-center justify-center gap-20"
       >
         <div>
           <ProjectBox
@@ -158,7 +158,7 @@ function Home() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className="flex justify-center my-12"
+          className="flex justify-center my-12 md:hidden"
         >
           <img src="src\assets\Experience.png" alt="" />
         </motion.div>
@@ -167,9 +167,10 @@ function Home() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
+          
         >
           <div className="my-12">
-            <div className="text-white font-poppins font-extrabold text-2xl text-start px-80 my-3 flex">
+            <div className="text-white font-poppins font-extrabold text-2xl text-start px-80 my-3 md:px-6 flex">
               <span>
                 <img
                   className="w-6 mx-2 my-1"
@@ -179,7 +180,7 @@ function Home() {
               </span>
               Design Associate At KSHITIJ
             </div>
-            <div className="text-gray-400 font-poppins text-sm text-start px-80">
+            <div className="text-gray-400 font-poppins text-sm text-start px-80 md:px-6 overflow-hidden">
               Made Various Banners and Posters for Sponsers using softwares like
               Photoshop and illustrator. Collaborated with many students to make
               design for the fest and Sponsers. Developed and learned Various

@@ -17,16 +17,16 @@ function Projects() {
           Projects
         </h1>
       </div>
-      <div className="border-yellow-500 border-8 w-96 mx-auto my-6"></div>
-      <div className="grid grid-flow-col grid-cols-2 px-32 justify-items-center">
-        <div className="w-[440px] my-4 ">
+      <div className="border-yellow-500 border-8 w-96 xs:w-72 mx-auto my-6"></div>
+      <div className="grid grid-flow-col lg:flex lg:flex-col lg:items-center lg:px-4 grid-cols-2 px-32 justify-items-center">
+        <div className=" my-4 ">
           <ProjectBox
             name="BlogApp"
             source="src\assets\Screenshot 2024-04-30 122042.png"
             uri="https://github.com/kratinsoni/BlogApp-appwrite"
           />
         </div>
-        <div className="w-[440px] my-4">
+        <div className="my-4">
           <ProjectBox
             name="VideoTube"
             source="src\assets\Screenshot 2024-04-30 130855.png"

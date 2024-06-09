@@ -3,7 +3,7 @@ import React from "react";
 function ProjectBox({ name, source, uri="https://www.google.com" }) {
   return (
     <div
-      className="my-8 w-[440px] rounded-2xl bg-headerbg cursor-pointer shadow-lg hover:transform hover:scale-110 transition-all"
+      className="my-8 w-[440px] md:w-[300px] rounded-2xl bg-headerbg cursor-pointer shadow-lg hover:transform hover:scale-110 transition-all"
       onClick={() => {
         window.open(uri);
       }}
