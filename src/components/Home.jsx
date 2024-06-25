@@ -17,7 +17,7 @@ function Home() {
 
   return (
     <div className="w-full">
-      <div className="w-full flex lg:flex-col px-12 md:px-4 py-12 justify-around items-center">
+      <div className="w-full flex lg:flex-col-reverse  px-12 md:px-4 py-12 justify-around items-center">
         <div className="mt-12 w-1/2 md:w-full">
           <div
             className="font-poppins text-white text-7xl
