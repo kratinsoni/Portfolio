@@ -15,6 +15,16 @@ function Home() {
 
   const naviagte = useNavigate();
 
+  const handleClick = () => {
+    const to = "kratin67soni@gmail.com";
+    const subject = encodeURIComponent("Subject Goes Here");
+    const body = encodeURIComponent("Hello, this is the message body.");
+
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${to}&su=${subject}&body=${body}`;
+
+    window.open(gmailUrl, "_blank");
+  };
+
   return (
     <div className="w-full">
       <div className="w-full flex lg:flex-col-reverse  px-12 md:px-4 py-12 justify-around items-center">
@@ -43,13 +53,13 @@ function Home() {
             </span>
           </div>
           <div className="flex gap-8 my-14 md:justify-center">
-            <button className="text-black bg-white font-poppins px-7 py-3 rounded-3xl font-semibold hover:text-white hover:bg-black  border-white border-2">
+            <button className="text-black bg-white font-poppins px-7 py-3 rounded-3xl font-semibold hover:text-white hover:bg-black  border-white border-2" onClick={handleClick}>
               Get In Touch
             </button>
             <Link
               className="text-white bg-black font-poppins px-7 py-3 rounded-3xl font-semibold border-white border-2 hover: border-collapse hover:bg-white hover:text-black"
               to={
-                "https://drive.google.com/uc?export=download&id=1Yo8xOCdY2pvpUh2DKyWrd98foTiWKxnL"
+                "https://drive.google.com/uc?export=download&id=1e3Sb_D4d5CQaE9ZuQW-a-IB0WMMJoSx1"
               }
             >
               Download CV
@@ -196,18 +206,43 @@ function Home() {
               <span>
                 <img
                   className="w-6 mx-2 my-1"
-                  src="https://drive.google.com/thumbnail?id=1Sb4Br2wLgw2GsHbyegDF451mvI1Zltio"
+                  src="https://drive.google.com/thumbnail?id=1HpY3OUhLuuZCKbHq2F0tOxAeInEjAeCI"
                   alt=""
                 />
               </span>
-              Design Associate At KSHITIJ
+              Full Stack Developer Intern Astraalis
             </div>
-            <div className="text-gray-400 font-poppins text-sm text-start px-80 md:px-6 overflow-hidden">
-              Made Various Banners and Posters for Sponsers using softwares like
-              Photoshop and illustrator. Collaborated with many students to make
-              design for the fest and Sponsers. Developed and learned Various
-              Teamworks and Design Skills and social skills while interaction
-              with various people.
+            <div className="text-white font-poppins text-sm text-start px-80 overflow-hidden">
+              <section class="space-y-4 pl-8 text-gray-300 leading-relaxed">
+                <p>
+                  <strong>🚀Leadership:</strong> Oversaw a full-stack web
+                  development team including backend and frontend interns.
+                  Delegated tasks, coordinated efforts, and ensured timely
+                  project delivery.
+                </p>
+
+                <p>
+                  <strong>🛠️Backend Development:</strong> Built a social media
+                  platform like LinkedIn using the MERN stack. Followed MVC
+                  architecture for scalable and maintainable code. Key features
+                  included user authentication, posts, likes, comments, follows,
+                  job listings, and a recommendation system. Implemented robust
+                  security with encryption and secure API practices.
+                </p>
+
+                <p>
+                  <strong>🎨Frontend Collaboration:</strong> Worked closely with
+                  UI/UX designers to bring responsive and user-friendly designs
+                  to life. Translated design prototypes into a fully functional
+                  frontend.
+                </p>
+
+                <p>
+                  <strong>💡Skills Gained:</strong> Enhanced leadership, project
+                  management, and teamwork skills while delivering a
+                  feature-rich application.
+                </p>
+              </section>
             </div>
           </div>
         </motion.div>
